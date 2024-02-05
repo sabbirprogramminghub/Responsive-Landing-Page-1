@@ -1,0 +1,130 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+.first {
+  display: flex;
+  background-image: url('/image/header-bg.png');
+  background-size: contain;
+}
+#first-img {
+  height: 94%;
+  width: 90%;
+  padding: 2%;
+  margin: 5%;
+}
+.half {
+  margin: 1%;
+  width: 48%;
+  margin: 2%;
+}
+.text {
+  padding: 5%;
+  background-size: contain;
+  margin-top: 25%;
+  margin-left: 5%;
+}
+#highlight {
+  color: #e99938;
+}
+.text p {
+  color: #575757;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 2vw;
+}
+h2 {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 5vw;
+}
+.text a {
+  text-decoration: none;
+  background-image: linear-gradient( 45deg, #f2b550, #e99938);
+  color: white;
+  border-radius: 40px;
+  padding: 10px 20px;
+  font-size: 3vw;
+}
+.second {
+  display: flex;
+  background-image: url('/image/biography-bg.png');
+  background-size: contain;
+}
+#second-img {
+  height: 94%;
+  width: 90%;
+  padding: 2%;
+  margin: 5%;
+}
+#second-a {
+  background-image: linear-gradient( 45deg, #fb8cbd, #ff3380);
+}
+.third {
+  display: flex;
+  background-image: url('/image/latest-work-bg.png');
+  background-size: contain;
+  margin: 3%;
+}
+.third img {
+  height: 82%;
+  width: 80%;
+  margin: 2%;
+  margin-top: 35%;
+  object-fit: cover;
+}
+.third h2 {
+  position: absolute;
+  left: 35%;
+}
+.center {
+  text-align: center;
+  margin-top: 10%;
+  background-image: url('/image/footer-bg.png');
+  background-size: contain;
+}
+#footer1 {
+  margin: 5%;
+}
+#footer2 {
+  margin-bottom: 2%;
+  font-size: 3vw;
+}
+#footer3 {
+  margin: 2%;
+  font-size: 3vw;
+  font-family: Georgia;
+}
+#footer4 {
+  margin: 6% 8% 15% 8%;
+  padding: 2%;
+  font-size: 4vw;
+  background-image: linear-gradient( 45deg, #f69dc4, #f67eab,#f1c793, #ecb169);
+  border-radius: 2vw;
+}
+footer {
+  text-align: center;
+  font-size: 3vw;
+  font-family: Courier New;
+}
+
+@media only screen and (max-width:600px) {
+.text h2 {
+  font-size: 5vw;
+}
+.text p {
+  font-size: 1vw;
+  margin-bottom: 2%;
+}
+.text a {
+  font-size: 10px;
+  border-radius: 25px;
+  padding: 3px 6px;
+}
+}
