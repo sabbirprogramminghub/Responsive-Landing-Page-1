@@ -112,6 +112,7 @@ footer {
   text-align: center;
   font-size: 3vw;
   font-family: Courier New;
+  padding-bottom: 5%;
 }
 
 @media only screen and (max-width:600px) {
